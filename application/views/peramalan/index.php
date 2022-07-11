@@ -89,7 +89,7 @@
             function tampilDataBrown() {
                 $.ajax({
                     type: 'GET',
-                    url: '<?php echo base_url() . "ramal_brown/mape_brown" ?>',
+                    url: '<?php echo base_url() . "Ramal_brown/mape_brown" ?>',
                     async: true,
                     dataType: 'json',
                     async: false,
@@ -101,7 +101,7 @@
                                 '<td>' + data[i].nilai_mape + '</td>' +
                                 '<td>' + data[i].kateg + '</td>' +
                                 '<td>' +
-                                '<a href="<?php echo base_url() . "ramal-brown/detail/" ?>' + data[i].alpha + ' " class="btn btn-info  text-center" >Detail</a>' + ' ' +
+                                '<a href="<?php echo base_url() . "Ramal-brown/detail/" ?>' + data[i].alpha + ' " class="btn btn-info  text-center" >Detail</a>' + ' ' +
                                 '</td>' +
                                 '</tr>';
                         }
@@ -114,7 +114,7 @@
             function tampilDataHolt() {
                 $.ajax({
                     type: 'GET',
-                    url: '<?php echo base_url() . "ramal_holt/mape_holt" ?>',
+                    url: '<?php echo base_url() . "Ramal_holt/mape_holt" ?>',
                     async: true,
                     dataType: 'json',
                     async: false,
@@ -127,7 +127,7 @@
                                 '<td>' + data[i].nilai_mape + '</td>' +
                                 '<td>' + data[i].kateg + '</td>' +
                                 '<td>' +
-                                '<a href="<?php echo base_url() . "ramal-holt/detail/" ?>' + data[i].betha + ' " class="btn btn-info  text-center" >Detail</a>' + ' ' +
+                                '<a href="<?php echo base_url() . "Ramal-holt/detail/" ?>' + data[i].betha + ' " class="btn btn-info  text-center" >Detail</a>' + ' ' +
                                 '</td>' +
                                 '</tr>';
                         }

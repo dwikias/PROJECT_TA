@@ -49,12 +49,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'dashboard';
+$route['default_controller'] = 'Dashboard';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
-$route['ramal-brown/detail/(:any)'] = 'ramal_brown/getDetail/$1';
-$route['ramal-holt/detail/(:any)'] = 'ramal_holt/getDetail/$1';
+$route['ramal-brown/detail/(:any)'] = 'Ramal_brown/getDetail/$1';
+$route['ramal-holt/detail/(:any)'] = 'Ramal_holt/getDetail/$1';
 
 $route['actual-data'] = 'DatasiswaController';
 $route['about'] = 'Dashboard/about';
+$route['ramal'] = 'Ramal';

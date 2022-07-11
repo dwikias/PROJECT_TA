@@ -167,7 +167,7 @@
             //function show all product
             function show_datasiswa() {
                 $.ajax({
-                    type: 'ajax',
+                    type: 'post',
                     url: '<?php echo site_url('DatasiswaController/data_siswa') ?>',
                     async: false,
                     dataType: 'json',
